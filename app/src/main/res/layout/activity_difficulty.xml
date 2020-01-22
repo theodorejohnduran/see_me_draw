@@ -8,6 +8,37 @@
     android:background="@drawable/gradient_list"
     tools:context="com.example.seemedraw1.HomeActivity">
 
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/arc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/idea_icon"
+        android:layout_marginTop="62dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/icon_shadow"
+        android:layout_marginTop="62dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
     <TextView
         android:id="@+id/seeme"
         android:layout_width="match_parent"
