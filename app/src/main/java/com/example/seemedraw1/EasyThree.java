@@ -11,12 +11,13 @@ public class EasyThree extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_easy_three);
+        PaintView paintView = new PaintView(this);
+        setContentView(paintView);
 
-        ConstraintLayout constraintLayout = findViewById(R.id.layout);
+        /*ConstraintLayout constraintLayout = findViewById(R.id.layout);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
-        animationDrawable.start();
+        animationDrawable.start();*/
     }
 }
