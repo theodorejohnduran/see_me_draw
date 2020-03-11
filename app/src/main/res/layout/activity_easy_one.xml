@@ -9,6 +9,30 @@
     tools:context="com.example.seemedraw1.HomeActivity">
 
 
+    <Button
+        android:id="@+id/btnImagePreviewEasyOne"
+        android:layout_width="317dp"
+        android:layout_height="350dp"
+        android:background="@drawable/easy_moon"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/easy_moon" />
 
-
+    <Button
+        android:id="@+id/btnPreview"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Preview"
+        android:fontFamily="@font/ostrich_sans_black"
+        android:textSize="25sp"
+        android:background="@android:color/holo_purple"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
